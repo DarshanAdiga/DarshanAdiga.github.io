@@ -9,6 +9,13 @@ url: https://darshanadiga.github.io/
 feed:
   path: atom.xml
 
+# For google analytics
+google_analytics: UA-117588349-1
+
+#For SEO
+plugins:
+  - jekyll-seo-tag
+
 # Jekyll configuration
 
 sass:
@@ -23,6 +30,8 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
+# Enable comments
+comments: true
 
 # Site owner
 owner:

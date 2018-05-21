@@ -65,25 +65,25 @@ Let's look at basic set of things to configure in the selected template.
 - To add the navigation items, edit the `_data/navigation.yml` file. For example,
 
   ```yaml
-  - title: POSTS
-    url: http://darshanadiga.github.io
-    excerpt: List of all posts
-    image:
-  
-  - title: ABOUT ME
-    url: http://darshanadiga.github.io
-    excerpt: Who am I?
-    image:
+  - title: POSTS  
+    url: http://darshanadiga.github.io  
+    excerpt: List of all posts  
+    image:  
+    
+  - title: ABOUT ME  
+    url: http://darshanadiga.github.io  
+    excerpt: Who am I?  
+    image:  
   ```
 
    Similarly, to add footer items, edit the `_data/footer.yml` file. For example,
 
   ```yaml
-  - title: Home
-    url: http://darshanadiga.github.io
-  
-  - title: About Me
-    url: http://darshanadiga.github.io
+  - title: Home  
+    url: http://darshanadiga.github.io  
+    
+  - title: About Me  
+    url: http://darshanadiga.github.io  
   ```
 
 This is enough to make it look like this is your own site. I'll update once I explore further.
@@ -107,5 +107,5 @@ Finally, add all these content (the `_site` directory can be ignored) into your 
 
 
 
-Now you can go have a cup of coffee!
+Now you can go and have a cup of coffee!
 
