@@ -1,4 +1,7 @@
 <header id="masthead">
+  {% if site.google_analytics %}
+{% include analytics.html %}
+{% endif %}
   <div class="inner-wrap">
     <a href="{{ site.url }}/" class="site-title">{{ site.title }}</a>
     <nav role="navigation" class="menu top-menu">
