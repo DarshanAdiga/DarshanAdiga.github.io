@@ -59,6 +59,7 @@ Processing a huge amount of data will involve many challanges related to speed, 
 * Immutability
 * Lazy evaluation
 * Iterator pattern
+* Pure Functions
 * Pipelining or Keep-it-flowing
 * Divide and conquer
 * Associative operations
@@ -109,6 +110,12 @@ Think of a custom iterator (not backed by any finite collection) that reads one 
 The above described iterator can read infintely large file with a very small memory requirements. The iterators, as described above, can be designed carefully to serve such large amount of data, optimally. This concept is used in most of the [Distributed Stream Processing](https://www.cakesolutions.net/teamblogs/introduction-into-distributed-real-time-stream-processing) engines also.
 
 One importent thing to note here is that, the items consumed by an iterator should not be collected or accumulated in memory (because of the obvious reason that, the large sized file may not fit into memory). Let's understand the reason behind this in the next section.
+
+### Pure Functions
+
+[**Pure functions**](https://www.sitepoint.com/functional-programming-pure-functions/) is one of the core concept of [functional programming](https://en.wikipedia.org/wiki/Functional_programming). Any function/method is a pure function if it produces exactly **same results for a given input** **without any [side-effects](https://dzone.com/articles/side-effects-1)**. This concept is what makes it difficult to get the hang of distributed processing sysmtes, especially for those who come from non-functional programming paradigm.
+
+If you are 100% sure that a function produces exactly same results, everytime you call it on a given input, you can blindly **run the function parallelly on parts of data** by using **divide and conquer** technique. Also, if for some reason, the operation fails in the middle of processing, the operation can be restarted by discarding the results produced so far. This is **makes distributed systems resilient to failures**!
 
 ### Pipelining or Keep-it-flowing
 
