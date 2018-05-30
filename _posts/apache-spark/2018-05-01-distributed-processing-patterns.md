@@ -63,7 +63,7 @@ Processing a huge amount of data will involve many challanges related to speed, 
 * [Pipelining or Keep-it-flowing](#pipelining-or-keep-it-flowing)
 * [Divide and conquer](#divide-and-conquer)
 * [Associative operations](#associative-operations)
-* [Don't move the data, bring the code to data](#don't-move-the-data,-bring-the-code-to-data)
+* [Bring the code to data](#bring-the-code-to-data)
 
 That's a long list! Now let's understand each one of these in detail.
 
@@ -177,7 +177,7 @@ Let us say we had to add 1 billion numbers, we can make the best use of associat
 
 One importent property to note here is that, the result type of the operation should be same as that of the inputs.
 
-### Don't move the data, bring the code to data
+### Bring the code to data
 
 A simple but most effective pattern that all the distributed processing systems use is **run the code where the data resides**. 
 

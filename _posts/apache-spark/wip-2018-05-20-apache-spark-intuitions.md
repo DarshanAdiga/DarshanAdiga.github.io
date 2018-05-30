@@ -47,7 +47,7 @@ In the DAG of RDDs, leaf nodes should always be used/consumed by at least one ac
 
 #### Bringing the Code to Data
 
-The combination of Apache Spark and HDFS is a brilliant one when it comes to scalability. HDFS has all the information about how data is distributed across nodes and scheduler of Apache Spark makes smart decissions on where to run the code that processes the data.
+The combination of Apache Spark and HDFS is a brilliant one when it comes to scalability. HDFS has all the information about how data is distributed across nodes and scheduler of Apache Spark makes smart decissions on where to run the code that processes the data. More about [bring the code to data](apache-spark/2018-05-01-distributed-processing-patterns.md#bring-the-code-to-data) on my previous post.
 
 All the transformations are [**pure functions**](apache-spark/2018-05-01-distributed-processing-patterns.md#pure-functions). This is one of the importent characteristics because that is what makes Apache Spark **distributable and resilient to failures** as described in my previous post.
 
