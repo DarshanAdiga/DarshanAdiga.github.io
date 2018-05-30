@@ -55,11 +55,11 @@ Processing a huge amount of data will involve many challanges related to speed, 
 
 [Patterns](https://sourcemaking.com/design_patterns) are nothing but solutions/guidelines to common occuring problems in a given domain. It looks like many of these patterns come from an interesting field of computer science called [functional programming](https://en.wikipedia.org/wiki/Functional_programming). Understanding these patterns should help one answer the question **why distributed processing systems are built like that?**.
 
-* Abstraction
-* Immutability
-* Lazy evaluation
-* Iterator pattern
-* Pure Functions
+* [Abstraction](#abstraction)
+* [Immutability](#immutability)
+* [Lazy evaluation](#lazy-evaluation)
+* [Iterator pattern](#iterator-pattern)
+* [Pure Functions](#pure-functions)
 * Pipelining or Keep-it-flowing
 * Divide and conquer
 * Associative operations
