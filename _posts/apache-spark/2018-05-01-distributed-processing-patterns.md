@@ -60,10 +60,10 @@ Processing a huge amount of data will involve many challanges related to speed, 
 * [Lazy evaluation](#lazy-evaluation)
 * [Iterator pattern](#iterator-pattern)
 * [Pure Functions](#pure-functions)
-* Pipelining or Keep-it-flowing
-* Divide and conquer
-* Associative operations
-* Don't move the data, bring the code to data
+* [Pipelining or Keep-it-flowing](#pipelining-or-keep-it-flowing)
+* [Divide and conquer](#divide-and-conquer)
+* [Associative operations](#associative-operations)
+* [Don't move the data, bring the code to data](#don't-move-the-data,-bring-the-code-to-data)
 
 That's a long list! Now let's understand each one of these in detail.
 
