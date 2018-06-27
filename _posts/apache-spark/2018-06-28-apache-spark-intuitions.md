@@ -72,7 +72,16 @@ In summary, below are the key components that control the scalability:
 
 ## Common pitfalls
 
+Below are the common mistakes that most of the beginner and intermediate level developers do 
 
+* Collecting/accumulating the data in memory by use of actions like *collect*, *count* etc
+* Not caching/persisting the data at appropriate stages of the DAG
+* Not partitioning the data to improve the data distribution
+* Not using the actions that do not trigger the costly shuffle operations
+
+## Summary
+
+This post mostly covers my experience with Apache Spark by considering my previous post on [Distributed processing Patterns](apache-spark/2018-05-01-distributed-processing-patterns.md) as a reference. The post covers some of the interesting and important patterns that I have seen in distributed systems. Please feel free to contact me about any corrections required to the content. Happy coding!
 
 ### References
 
