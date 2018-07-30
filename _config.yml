@@ -13,26 +13,23 @@ feed:
 google_analytics: UA-117588349-1
 
 #For SEO
-#plugins:
-#  - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
 
 # Jekyll configuration
 
-#sass:
-#  sass_dir: _sass
-#  style: compressed
+sass:
+  sass_dir: _sass
+  style: compressed
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
 highlighter: rouge
 
-gem "github-pages", group: :jekyll_plugins
-remote_theme: "mmistakes/minimal-mistakes"
-
-#gems:
-#  - jekyll-sitemap
-#  - jekyll-gist
-#  - jekyll-feed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 # Enable comments
 comments: true

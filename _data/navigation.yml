@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: POSTS
+  url: http://darshanadiga.github.io
+  excerpt: List of all posts
+  image:
+
+- title: ABOUT ME
+  url: http://darshanadiga.github.io
+  excerpt: Who am I?
+  image:
