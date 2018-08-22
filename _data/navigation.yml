@@ -3,9 +3,7 @@
 #- title: POSTS
 #  url: /
 #  excerpt: List of all posts
-#  image:
 
 - title: ABOUT ME
-  url: /about/about.html
+  url: https://github.com/DarshanAdiga
   excerpt: Who am I?
-  image:
