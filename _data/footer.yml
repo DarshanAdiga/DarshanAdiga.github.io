@@ -1,7 +1,7 @@
 # Footer navigation links
 
 - title: Home
-  url: http://darshanadiga.github.io
+  url: /
 
 - title: About Me
-  url: http://darshanadiga.github.io/about/index.md
+  url: /about/index.md
