@@ -1,3 +1,0 @@
-# Darshan Adiga
-
-Work in progress...
