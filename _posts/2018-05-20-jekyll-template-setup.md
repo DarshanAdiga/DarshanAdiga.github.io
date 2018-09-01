@@ -1,6 +1,7 @@
 ---
 comments: true
 ---
+
 # Jekyll Template setup for GitHub Pages
 
 This website of my technical explorations is hosted by [GitHub Pages](https://pages.github.com) which uses [Jekyll](https://jekyllrb.com/) to generate the static site using [Markdown](https://en.wikipedia.org/wiki/Markdown) content. Initially, I had used one of the [default themes](https://pages.github.com/themes/) supported by GitHub pages. But soon, I got bored of it and wanted to try something different.
