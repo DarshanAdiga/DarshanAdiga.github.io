@@ -24,8 +24,8 @@ layout: default
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
 					{% include page-meta.html %}
-					{% include comments.html %}
 				</footer><!-- /.footer -->
+				{% include comments.html %}
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>
