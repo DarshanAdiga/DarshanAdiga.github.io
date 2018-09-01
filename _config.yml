@@ -31,9 +31,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
-# Enable comments
-comments: true
-
 # Site owner
 owner:
   name: Darshan Adiga
